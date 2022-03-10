@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply text-white block p-5 font-bold hover:text-yellow-500;
+}
+
+.wave-pattern {
+  @apply bg-[url('../img/wave-white.png')];
+}
+
+.wave-pattern-dots {
+  @apply bg-[url('../img/pattern-white-dots.png')];
+}
+
+.pattern-red {
+  @apply bg-[url('../img/pattern-characters-red.png')];
+}
+
+.mario {
+  @apply bg-[url('../img/character-l.png')];
+}
+
+.wave-pink {
+  @apply bg-[url('../img/wave-pink.png')];
+}
+
+.yellow-dots {
+  @apply bg-[url('../img/pattern-yellow-dots.png')];
+}
+
+
+.dot{
+    @apply h-3 w-3 bg-blue-600 rounded-full
+}
+
+
+.arrow{
+    @apply w-4 h-4 inline-block border-yellow-300 border-solid border-t-[5px] border-r-[5px] transition-all transform rotate-45 
+}
